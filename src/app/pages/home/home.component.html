@@ -1,0 +1,52 @@
+
+<div class="banner">
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="mb-3">
+            "Pascale writes in the realm with the giants.<br> 
+            She is one step past fantastic that is hard to define,<br> 
+            and a little frightening, <br>
+            and yet we yearn to travel there <br>
+            as often as possible"</h1>
+            <h2>--Adam Armstrong</h2>
+            <img id="badge" src="../assets/img/association.png">
+      </div>
+      <div class="col">
+        <a href="https://www.amazon.com/Elaine-Pascale/e/B003MRXUCS/ref=aufs_dp_fta_dsk" target="_blank"> <img src="../assets/img/Mommy.jpg"></a>,
+      </div>
+<!--P and Mom pic div -->
+      
+  
+<div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Monthly Podcast Guest On...</p>
+          <a href="https://open.spotify.com/show/5eREh33BTK2hUvLIPA7fiw" target="_blank"> <img id="podcast" src="../assets/img/WhatScreamN.jpg"></a>,
+        </div>
+      </div>
+
+  <div class="row">
+    <div class="col">
+      <p>Monthly Contributor To...</p>
+      <a href="https://penofthedamned.com/" target="_blank"> <img id="pod" src="../assets/img/pod.jpg"></a>,
+    </div>
+    <div class="col">
+      <a href="https://spreadingthewritersword.com/" target="_blank"> <img id="loh" src="../assets/img/LOH.jpg"></a>,
+    </div>
+  </div>
+</div>  
+
+<!--Books div-->
+        <div class="container mt-4 mb-4">
+            <a routerLink="books" class="Btn">Books<i class="bi bi-arrow-right"></i></a>
+            <div class="row">
+                <div class="col-lg-3" *ngFor="let bd of bookData;index as i">
+                    <div class="bookbox" *ngIf="i<=3">
+                    <a href="{{bd.bookUrl}}" target="_blank"> <img src="{{bd.bookimg}}"></a>
+                    </div>
+                </div>
+            </div>
+        <div>
+    </div>
+  </div>   

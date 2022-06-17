@@ -1,0 +1,14 @@
+
+<div class="background">
+<div class="container">
+    <div class = "row">
+        <div class="col-lg-4" *ngFor="let bd of bookData;index as i">
+            <div class="bookbox">
+            <a href="{{bd.bookUrl}}" target="_blank"> <img src="{{bd.bookimg}}"></a>
+                <p>{{bd.bookDes}}</p> 
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+

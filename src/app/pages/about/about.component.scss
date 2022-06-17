@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
+body {
+  font-family: 'Amatic SC', sans-serif;
+}
+.test {
+  animation: squiggly-anim 0.34s linear infinite;
+}
+body {
+  background: #111;
+  color: #fff;
+}
+.test {
+  display:inline-block;
+  vertical-align: middle;
+  width: 100%;
+  outline: none;
+  text-align: center;
+  line-height: 2;
+  font-size:55px;
+  padding:10%;
+  padding-top: 5%;
+}
+@-moz-keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+  25% {
+    filter: url("#squiggly-1");
+  }
+  50% {
+    filter: url("#squiggly-2");
+  }
+  75% {
+    filter: url("#squiggly-3");
+  }
+  100% {
+    filter: url("#squiggly-4");
+  }
+}
+@-webkit-keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+  25% {
+    filter: url("#squiggly-1");
+  }
+  50% {
+    filter: url("#squiggly-2");
+  }
+  75% {
+    filter: url("#squiggly-3");
+  }
+  100% {
+    filter: url("#squiggly-4");
+  }
+}
+@-o-keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+  25% {
+    filter: url("#squiggly-1");
+  }
+  50% {
+    filter: url("#squiggly-2");
+  }
+  75% {
+    filter: url("#squiggly-3");
+  }
+  100% {
+    filter: url("#squiggly-4");
+  }
+}
+@keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+  25% {
+    filter: url("#squiggly-1");
+  }
+  50% {
+    filter: url("#squiggly-2");
+  }
+  75% {
+    filter: url("#squiggly-3");
+  }
+  100% {
+    filter: url("#squiggly-4");
+  }
+}
+h1
+{
+    font-size: 60px;
+    text-align: center;
+    background: #111;
+    color: #fff;
+}
