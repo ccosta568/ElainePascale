@@ -1,5 +1,9 @@
 # ElainePascale
 
+Website for Author Elaine Pascale created by Christopher Costa
+
+Go to www.elainepascale.com to view the working webpage.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
 ## Development server
@@ -25,4 +29,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# ElainePascale
+# AWS Services 
+
+S3 Buckets
+  -elainepascale.com
+  -www.elainepascale.com
+  
+ 
+Route 53
+  -holds domain name 
+
+CloudFront
+  -used to distribute web content 
+
+Project also implemented HTTPS Security
+  -requesting a certificate
+  
+  # Resources Used
+  
+  1.https://www.youtube.com/watch?v=YehZI9Hbtn8&t=797s
+  
+  2.https://www.freecodecamp.org/news/simple-site-hosting-with-amazon-s3-and-https-5e78017f482a/
