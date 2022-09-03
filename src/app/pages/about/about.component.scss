@@ -1,97 +1,78 @@
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
-body {
-  font-family: 'Amatic SC', sans-serif;
-}
-.test {
-  animation: squiggly-anim 0.34s linear infinite;
-}
-body {
-  background: #111;
-  color: #fff;
-}
-.test {
-  display:inline-block;
-  vertical-align: middle;
-  width: 100%;
-  outline: none;
+h1 {
   text-align: center;
-  line-height: 2;
-  font-size:55px;
-  padding:10%;
-  padding-top: 5%;
+  padding-top: 1%;
+  font-size: 75px;
+  margin-right: 25%;
 }
-@-moz-keyframes squiggly-anim {
-  0% {
-    filter: url("#squiggly-0");
-  }
-  25% {
-    filter: url("#squiggly-1");
-  }
-  50% {
-    filter: url("#squiggly-2");
-  }
-  75% {
-    filter: url("#squiggly-3");
-  }
-  100% {
-    filter: url("#squiggly-4");
-  }
+
+.sig {
+  margin-left: 60%;
+
 }
-@-webkit-keyframes squiggly-anim {
-  0% {
-    filter: url("#squiggly-0");
-  }
-  25% {
-    filter: url("#squiggly-1");
-  }
-  50% {
-    filter: url("#squiggly-2");
-  }
-  75% {
-    filter: url("#squiggly-3");
-  }
-  100% {
-    filter: url("#squiggly-4");
-  }
+
+.indent {
+  margin-left: 5%;
 }
-@-o-keyframes squiggly-anim {
-  0% {
-    filter: url("#squiggly-0");
-  }
-  25% {
-    filter: url("#squiggly-1");
-  }
-  50% {
-    filter: url("#squiggly-2");
-  }
-  75% {
-    filter: url("#squiggly-3");
-  }
-  100% {
-    filter: url("#squiggly-4");
-  }
+
+img {
+  width: 300px;
+  height: 500px;
+  object-fit: contain;
+  float: right;
 }
-@keyframes squiggly-anim {
-  0% {
-    filter: url("#squiggly-0");
-  }
-  25% {
-    filter: url("#squiggly-1");
-  }
-  50% {
-    filter: url("#squiggly-2");
-  }
-  75% {
-    filter: url("#squiggly-3");
-  }
-  100% {
-    filter: url("#squiggly-4");
-  }
+
+.background {
+  background-image: url('../../../assets/img/about-background.jpg');
 }
-h1
-{
-    font-size: 60px;
-    text-align: center;
-    background: #111;
-    color: #fff;
+
+.about {
+  height: 120px;
+  width: 150px;
+  float: left;
+  padding: 0%;
+  margin-left: 10%;
+}
+
+@media screen and (max-width:600px) {
+  .about {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 5%;
+  }
+
+  h1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-8 {
+    width: 100%;
+  }
+
+  .sig {
+    margin-left: 40%;
+  }
+
+  img {
+    display: flex;
+    float: none;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+
+  a {
+    padding-bottom: 0%;
+  }
+
+  .elaine {
+    margin-bottom: 0%;
+  }
 }

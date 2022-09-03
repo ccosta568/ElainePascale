@@ -1,55 +1,26 @@
-<head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elaine Pascale's homepage for her personal professional website.">
   <title>Elaine Pascale's Professional Website</title>
-  <meta name="description" content="Elaine Pascale's homepage for her personal professional website. She is best known for being a horror writer and part of the Women in Horror Club.">
 </head>
-<div class="banner">
-<div class="container">
-    <div class="row">
-      <div class="col">
-        <h1 class="mb-3">
-            "Pascale writes in the realm with the giants.<br> 
-            She is one step past fantastic that is hard to define,<br> 
-            and a little frightening, <br>
-            and yet we yearn to travel there <br>
-            as often as possible"</h1>
-            <h2>--Adam Armstrong</h2>
-            <img id="badge" src="../assets/img/association.png" alt="Horror Writers Association Member Sheild">
-      </div>
-      <div class="col">
-        <a href="https://www.amazon.com/Elaine-Pascale/e/B003MRXUCS/ref=aufs_dp_fta_dsk" target="_blank"> <img src="../assets/img/Mommy.jpg" alt="Elaine Pacale that links to Elaine Pascale's Amazon Home Page"></a>,
-      </div>
-<!--P and Mom pic div -->
-      
-  
-<div class="container">
+
+<body>
+  <div class="banner">
+    <div class="container">
       <div class="row">
-        <div class="col">
-          <p>Regular Podcast Guest On...</p>
-          <a href="https://open.spotify.com/show/5eREh33BTK2hUvLIPA7fiw" target="_blank"> <img id="podcast" src="../assets/img/WhatScreamN.jpg" alt="What A Scream Podcast with link going to Spotify"></a>,
+        <div class="col-lg-4" *ngFor="let bd of bookData;index as i">
+          <div class="bookbox">
+            <a href="{{bd.bookUrl}}" target="_blank"> <img src="{{bd.bookimg}}"></a>
+            <!--- <p>{{bd.bookDes}}</p>  Uncomment to Add description of books under pic -->
+          </div>
         </div>
       </div>
-
-  <div class="row">
-    <div class="col">
-      <p>Regular Contributor To...</p>
-      <a href="https://penofthedamned.com/" target="_blank"> <img id="pod" src="../assets/img/pod.jpg" alt="Pen of the Damned with link going to https://penofthedamned.com/"></a>,
-    </div>
-    <div class="col">
-      <a href="https://spreadingthewritersword.com/" target="_blank"> <img id="loh" src="../assets/img/LOH.jpg" alt="Ladies of Horror link to https://spreadingthewritersword.com/"></a>,
     </div>
   </div>
-</div>  
+</body>
 
-<!--Books div-->
-        <div class="container mt-4 mb-4">
-            <a routerLink="books" class="Btn">Books<i class="bi bi-arrow-right"></i></a>
-            <div class="row">
-                <div class="col-lg-3" *ngFor="let bd of bookData;index as i">
-                    <div class="bookbox" *ngIf="i<=3">
-                    <a href="{{bd.bookUrl}}" target="_blank"> <img src="{{bd.bookimg}}"></a>
-                    </div>
-                </div>
-            </div>
-        <div>
-    </div>
-  </div>   
+</html>

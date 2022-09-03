@@ -1,7 +1,23 @@
 body
 {
-    background-color: rgb(75, 72, 72);
+    background-image: url('../../../assets/img/bannerimg.jpg');
+    background-position: center bottom;
+    background-size: cover;
 }
 .col{
-  padding: 1%;
+  padding: 2%;
+}
+img{
+  height:250px;
+  width:500px;
+}
+@media screen and (max-width:600px)
+{ 
+  img{
+    width:100%;
+  }
+  youtube-player{
+    display: flex;
+    width:100%;
+  }
 }
