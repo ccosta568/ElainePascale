@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { InterviewsService } from 'src/app/services/interviews.service';
 @Component({
   selector: 'app-wihm',
   templateUrl: './wihm.component.html',
@@ -7,11 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WihmComponent implements OnInit {
 
-  
-
-  constructor() { }
-
+  constructor(private service:InterviewsService) { }
+  interviewData:any;
   ngOnInit(): void {
+    this.interviewData = this.service.interviewDetails;
   }
 
 }

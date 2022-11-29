@@ -1,9 +1,8 @@
-.wihm img{
-display: block;
-height:250px;
-width:250px;
-padding-bottom: 5%;
-margin: auto;
+.container{
+text-align: center;
+}
+iframe{
+    padding-bottom: 20px;
 }
 h1{
     text-align: center;
@@ -11,14 +10,6 @@ h1{
     padding-bottom: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#ffffff;
-}
-#podcast img{
-    height:200px;
-    width:200px;
-}
-#transcripts img{
-    height:200px;
-    width:200px;
 }
 .row{
     padding-bottom:2%;
@@ -32,10 +23,11 @@ h1{
   }
   @media screen and (max-width:600px)
   {
-    #podcast{
-        margin-bottom:5%;
+    .container{
+        width: 100vw;
     }
-    #transcripts{
-        margin-bottom:5%;
+    iframe{
+        width:90vw;
     }
   }
+

@@ -1,6 +1,6 @@
 .navbar-light .navbar-nav .nav-link.active-link 
 {
-    color:black;
+  color:#cf4344;
     font-weight: bold;
 }
 .navbar-brand{
@@ -23,31 +23,9 @@
 #badge{
     margin-left:10%;
 }
-i{
-    margin-top:0%;
-}
-.bi-tiktok{
-    margin-right: 2%;
-    margin-bottom: 5%;
-
-}
-.bi-twitter{
-    margin-left:25%;
-}
-.bi-instagram{
-    margin-left:25%;
-}
 @media screen and (max-width:600px)
 { 
-  hr{
-    display: none;
-  }
-  i{
-    display:none;
-  }
-  .bi-tiktok{
-    display:none;
-  }
+ 
   .navbar-brand{
     font-size:35px;
   }
@@ -57,5 +35,8 @@ i{
   #badge{
     margin-left:auto;
     margin-right: auto;
+  }
+  .navbar-nav{
+    margin-left:0%;
   }
 }

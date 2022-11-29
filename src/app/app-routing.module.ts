@@ -6,6 +6,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { YoutubeComponent } from './pages/youtube/youtube.component';
 import { InterviewsComponent } from './pages/interviews/interviews.component';
 import { WihmComponent } from './pages/wihm/wihm.component';
+import { PodcastsComponent } from './pages/podcasts/podcasts.component';
+
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -14,6 +16,7 @@ const routes: Routes = [
   {path:'youtube',component:YoutubeComponent},
   {path:'interviews',component:InterviewsComponent},
   {path:'wihm',component:WihmComponent},
+  {path:'podcasts',component:PodcastsComponent}
 ];
 
 @NgModule({

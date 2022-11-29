@@ -13,6 +13,7 @@ import { YouTubePlayerModule } from "@angular/youtube-player";
 import { InterviewsComponent } from './pages/interviews/interviews.component';
 import { WihmComponent } from './pages/wihm/wihm.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { PodcastsComponent } from './pages/podcasts/podcasts.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
     YoutubeComponent,
     InterviewsComponent,
     WihmComponent,
+    PodcastsComponent,
   ],
   imports: [
     BrowserModule,
