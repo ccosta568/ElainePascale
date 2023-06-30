@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WihmComponent } from './wihm.component';
+import { HauntsComponent } from './haunts.component';
 
-describe('WihmComponent', () => {
-  let component: WihmComponent;
-  let fixture: ComponentFixture<WihmComponent>;
+describe('HauntsComponent', () => {
+  let component: HauntsComponent;
+  let fixture: ComponentFixture<HauntsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WihmComponent ]
+      declarations: [ HauntsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(WihmComponent);
+    fixture = TestBed.createComponent(HauntsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

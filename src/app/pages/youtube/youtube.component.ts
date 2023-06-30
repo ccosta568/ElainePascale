@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-youtube',
+  selector: 'app-videos',
   templateUrl: './youtube.component.html',
   styleUrls: ['./youtube.component.scss']
 })

@@ -11,6 +11,13 @@ img{
   height:250px;
   width:500px;
 }
+h1{
+  font-family: Nosifer, Verdana, Geneva, Tahoma, sans-serif;
+    color:#ffffff;
+    font-size:50px;
+    text-align:center;
+    padding-top: 2%;
+}
 @media screen and (max-width:600px)
 { 
   img{
@@ -19,5 +26,15 @@ img{
   youtube-player{
     display: flex;
     width:100%;
+  }
+  #podcast{
+    width: 95vw;
+  }
+  h1{
+    font-family: Nosifer, Verdana, Geneva, Tahoma, sans-serif;
+    color:#ffffff;
+    font-size:25px;
+    text-align:center;
+    padding-top: 2%;
   }
 }

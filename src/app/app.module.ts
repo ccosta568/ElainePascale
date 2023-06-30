@@ -11,7 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { YoutubeComponent } from './pages/youtube/youtube.component';
 import { YouTubePlayerModule } from "@angular/youtube-player";
 import { InterviewsComponent } from './pages/interviews/interviews.component';
-import { WihmComponent } from './pages/wihm/wihm.component';
+import { HauntsComponent } from './pages/haunts/haunts.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { PodcastsComponent } from './pages/podcasts/podcasts.component';
 
@@ -25,7 +25,7 @@ import { PodcastsComponent } from './pages/podcasts/podcasts.component';
     AboutComponent,
     YoutubeComponent,
     InterviewsComponent,
-    WihmComponent,
+    HauntsComponent,
     PodcastsComponent,
   ],
   imports: [

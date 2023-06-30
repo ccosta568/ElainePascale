@@ -5,23 +5,50 @@
     margin-top: 0%;
     background-repeat:no-repeat;
   }
-  p{
-    color:white;
-    font-weight:bold;
-    font-size:35px;
+#mobile-box {
+  width: 400px;
+  padding-top: 2%;
+  padding-bottom:2%;
+}
+
+.card {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.card .view {
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card h5 a {
+  color: #0d47a1;
+}
+
+.card h5 a:hover {
+  color: #072f6b;
+}
+img{
+  height:300px;
+}
+.spacing{
+  padding-top:4%;
+}
+h1{
+  font-family: Nosifer, Verdana, Geneva, Tahoma, sans-serif;
+    color:#ffffff;
+    font-size:60px;
+    text-align:center;
+    padding-top: 2%;
+}
+@media screen and (max-width:600px){
+  h1{
+    font-family: Nosifer, Verdana, Geneva, Tahoma, sans-serif;
+    color:#ffffff;
+    font-size:45px;
+    text-align:center;
+    padding-top: 2%;
   }
-  div .background{
-    height:100vh;
-    width:100vw;
-  }
- .box{
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
- }
- h1{
-  color:white;
-  font-weight:bold;
-  font-size:50px;
-  padding-bottom: 10px;
 }

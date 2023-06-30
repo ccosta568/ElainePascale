@@ -5,7 +5,7 @@ import { BooksComponent } from './pages/books/books.component';
 import { HomeComponent } from './pages/home/home.component';
 import { YoutubeComponent } from './pages/youtube/youtube.component';
 import { InterviewsComponent } from './pages/interviews/interviews.component';
-import { WihmComponent } from './pages/wihm/wihm.component';
+import { HauntsComponent } from './pages/haunts/haunts.component';
 import { PodcastsComponent } from './pages/podcasts/podcasts.component';
 
 
@@ -15,7 +15,7 @@ const routes: Routes = [
   {path:'about',component:AboutComponent},
   {path:'youtube',component:YoutubeComponent},
   {path:'interviews',component:InterviewsComponent},
-  {path:'wihm',component:WihmComponent},
+  {path:'haunts',component:HauntsComponent},
   {path:'podcasts',component:PodcastsComponent}
 ];
 

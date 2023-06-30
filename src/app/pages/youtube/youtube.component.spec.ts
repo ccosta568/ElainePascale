@@ -23,3 +23,5 @@ describe('YoutubeComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+export { YoutubeComponent };
+

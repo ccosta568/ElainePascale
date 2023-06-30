@@ -1,6 +1,13 @@
 .container{
 text-align: center;
 }
+button img{
+    height:300px;
+    width:400px;
+}
+button{
+    margin-top: 10%;
+}
 iframe{
     padding-bottom: 20px;
 }
@@ -8,8 +15,9 @@ h1{
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Nosifer, Verdana, Geneva, Tahoma, sans-serif;
     color:#ffffff;
+    font-size:60px;
 }
 .row{
     padding-bottom:2%;
@@ -21,13 +29,9 @@ h1{
     margin-top: 0%;
     background-repeat:no-repeat;
   }
-  @media screen and (max-width:600px)
-  {
-    .container{
-        width: 100vw;
-    }
-    iframe{
+ 
+  @media screen and (max-width:600px){
+    button img{
         width:90vw;
     }
   }
-
