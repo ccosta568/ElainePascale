@@ -7,16 +7,18 @@ import { YoutubeComponent } from './pages/youtube/youtube.component';
 import { InterviewsComponent } from './pages/interviews/interviews.component';
 import { HauntsComponent } from './pages/haunts/haunts.component';
 import { PodcastsComponent } from './pages/podcasts/podcasts.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'books',component:BooksComponent},
   {path:'about',component:AboutComponent},
-  {path:'youtube',component:YoutubeComponent},
+  {path:'videos',component:YoutubeComponent},
   {path:'interviews',component:InterviewsComponent},
   {path:'haunts',component:HauntsComponent},
-  {path:'podcasts',component:PodcastsComponent}
+  {path:'podcasts',component:PodcastsComponent},
+  {path: '**',component:NotFoundComponent}
 ];
 
 @NgModule({

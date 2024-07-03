@@ -13,4 +13,5 @@ export class HauntsComponent implements OnInit {
     this.interviewData = this.service.interviewDetails;
   }
 
+  
 }
