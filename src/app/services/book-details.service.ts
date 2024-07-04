@@ -9,6 +9,12 @@ export class BookDetailsService {
   //bookdetails
     bookDetails = [
       {
+        bookName:"The Language of Crows",
+        bookimg : ( "../assets/img/loc.jpg"),
+        bookDes : "Legend has it that crows prophesize offenses of the worst kind, their harsh tones are harbingers of horror. Collectively, crows are a murder, and they call out orders about their own name. The Language of Crows and other stories contains dark fairy tales, historical horror, and psychological horror in voices of the violent and the violated. It is a collection of witches' spells, monsters' murmurs, and voices within one's head.",
+        bookUrl : ("https://www.amazon.com/Language-Crows-Elaine-Pascale/dp/195884229X/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.qp06helQzq5q6YklEqzuBQ.qH_ZGy_fna3KCws8IXth7gau6a1vJCW-PpI-2keLQ_M&qid=1720114785&sr=8-1")
+      },
+      {
         bookName:"The Kitchen Witches",
         bookimg : ( "../assets/img/kw.jpg"),
         bookDes : "The women of Cape Cod have a story that is dying to be told. If only they could live long enough to tell it. When Fiona Walker is contracted to write about a party attended by her social circle, her friends begin dying. She captures the competition and misery of the women around her through three different stories.",

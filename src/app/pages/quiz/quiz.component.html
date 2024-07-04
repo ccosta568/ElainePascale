@@ -1,0 +1,22 @@
+<!-- quiz.component.html -->
+
+<div *ngIf="!quizStarted">
+    <button (click)="startQuiz()">What Book to Read?</button>
+  </div>
+  
+  <div *ngIf="quizStarted && !quizCompleted">
+    <h3>Question {{ currentQuestionIndex + 1 }}</h3>
+    <p>{{ questions[currentQuestionIndex].questionText }}</p>
+    <ul>
+      <li *ngFor="let option of questions[currentQuestionIndex].options">
+        <button (click)="selectOption(option.points)">{{ option.text }}</button>
+      </li>
+    </ul>
+  </div>
+  
+  <div *ngIf="quizCompleted">
+    <h3>Quiz Completed!</h3>
+    <p>Recommended Book: {{ recommendBook().title }}</p>
+    <p>Description: {{ recommendBook().description }}</p>
+    <button (click)="restartQuiz()">Restart Quiz</button>
+  </div>

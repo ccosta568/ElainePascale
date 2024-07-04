@@ -11,6 +11,33 @@
 <body>
   <div class="banner">
     <div class="container">
+
+
+      <div class="quiz">
+      <div *ngIf="!quizStarted">
+        <button (click)="startQuiz()"><b>What Book to Read?</b></button>
+      </div>
+      
+      <div *ngIf="quizStarted && !quizCompleted">
+        <h3>Question {{ currentQuestionIndex + 1 }}</h3>
+        <p>{{ questions[currentQuestionIndex].questionText }}</p>
+        <ul>
+          <li *ngFor="let option of questions[currentQuestionIndex].options">
+            <button (click)="selectOption(option.points)">{{ option.text }}</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div *ngIf="quizCompleted">
+        <h3>Quiz Completed!</h3>
+        <p>You should read, {{ recommendBook().title }}</p>
+        <p> {{ recommendBook().description }}</p>
+        <button (click)="restartQuiz()">Restart Quiz</button>
+      </div>
+      </div>
+
+
+
       <div class="row">
         <div class="col-lg-4" *ngFor="let bd of bookData;index as i">
           <div class="bookbox">
