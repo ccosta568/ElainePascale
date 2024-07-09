@@ -16,7 +16,7 @@ export class BookDetailsService {
       },
       {
         bookName:"The Kitchen Witches",
-        bookimg : ( "../assets/img/kw.jpg"),
+        bookimg : ( "../assets/img/kw1.jpg"),
         bookDes : "The women of Cape Cod have a story that is dying to be told. If only they could live long enough to tell it. When Fiona Walker is contracted to write about a party attended by her social circle, her friends begin dying. She captures the competition and misery of the women around her through three different stories.",
         bookUrl : ("https://www.amazon.com/Kitchen-Witches-Elaine-Pascale/dp/B0D4NK9TCC/ref=sr_1_1?crid=3I354Q08L8A9P&dib=eyJ2IjoiMSJ9.irtgyPySu2rx3O_2mg3CTy7dpktKSCP230yq_ystAub48WjPvOWM7oVaQxpJK5c5DOYTGHBiddLblxd8jr8XRxghbkVmmXpeayeEQsL1B6dhsh2PrA5fmEpoP9CvYE9P.RjEuCvR-hxf9MNOzhRpqwAEgltr2tKDjDZT_DP8R12Y&dib_tag=se&keywords=elaine+pascale&qid=1718892209&sprefix=%2Caps%2C114&sr=8-1")
       },

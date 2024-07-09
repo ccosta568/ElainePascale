@@ -26,7 +26,7 @@ export class QuizService {
       ]
     },
     {
-      questionText: 'Who Do you Marry?',
+      questionText: 'Who do you marry?',
       options: [
         { text: 'The Hairy Werewolf', points: 1 },
         { text: 'The Marsh Person', points: 2 },
@@ -35,7 +35,7 @@ export class QuizService {
       ]
     },
     {
-      questionText: 'Family Role?',
+      questionText: 'Family role?',
       options: [
         { text: 'Boss Breadwinner', points: 1 },
         { text: 'Witchy Aunt/Wizard Uncle', points: 2 },

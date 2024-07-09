@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { InterviewsService } from 'src/app/services/interviews.service';
+
 @Component({
   selector: 'app-haunts',
   templateUrl: './haunts.component.html',
@@ -7,10 +7,9 @@ import { InterviewsService } from 'src/app/services/interviews.service';
 })
 export class HauntsComponent implements OnInit {
 
-  constructor(private service:InterviewsService) { }
-  interviewData:any;
+  constructor() { }
+
   ngOnInit(): void {
-    this.interviewData = this.service.interviewDetails;
   }
 
   
