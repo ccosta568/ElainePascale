@@ -32,6 +32,18 @@ export class BookDetailsService {
         bookDes : "The Blood Lights are the last thing you’ll see… They victimize all… Jezzie Mitchell is in anguish; with her brother’s murder still on her mind, she’s noticed strange behavior among the girls in the residential treatment center where she works. Is there a connection between the contagion on Cape Cod and the deadly Bahamas vacation that changed her life? Jezzie reaches out to former lover Lou Collins, a scholar who has chased proof of the lights for decades. Will he be able to solve the mystery of the lights in time? Intensely competitive, reporter Bridgette Collins knows the lights are a way to secure fame in her career. And while it’ll put the final nail into the coffin of her ex-husband’s career, she vows to know the secrets of the lights. Even if it means unleashing a world-wide epidemic…",
         bookUrl : "https://www.amazon.com/Blood-Lights-Elaine-Pascale-ebook/dp/B0CR2Q5CPL/ref=sr_1_1?crid=1XE8R124Y5SE8&dib=eyJ2IjoiMSJ9.i3CgddI_Wn624AYXJxTjZuIop5h1ESMHITvQaKkvrpQ.I_ToBDSrZDuGtpamenG2m-5kyq0QtEqTS-kFNEZ2aFo&dib_tag=se&keywords=blood+lights+elaine+pascale&qid=1719987265&sprefix=blood+lights+elaine+pas%2Caps%2C702&sr=8-1"
       },
+      {
+        bookName:"Dastardly Damsels ",
+        bookimg:( "../assets/img/Damsels.jpg"),
+        bookDes : "A transcendental anthology of women in horror, altering all you know by revamping traditional lore while exploring the unfathomable and the obscure.",
+        bookUrl : "https://www.amazon.com/Dastardly-Damsels-Suzie-Lockhart-ebook/dp/B0DHLQD12R"
+      },
+      {
+        bookName:"Phantom Menagerie",
+        bookimg:( "../assets/img/phantom.png"),
+        bookDes : "What if the items that are in the room you’re sitting in right now could share their individual stories? Would you want to know where they came from or who they’ve previously encountered?",
+        bookUrl : "https://www.amazon.com/Phantom-Menagerie-Stories-Inspired-History-ebook/dp/B0CZ4TJM94/ref=sr_1_1?crid=9443ZESTTCGO&dib=eyJ2IjoiMSJ9.IWmqOHUzRkrzIS1XJbQJ5OVqC6JIKi3wfoH4ZVATlig3qZkO-mTQnjm74K3NVvN4c5ax5uoVorC7UNMVzQhWtV9yEbwVezj7Fwet4P2Slr-45njU5JULm8o-it16-OmOJH9dHmW9G39pVjRJhK8EOreu9em4nJUZSejDx9x77iDXLAikimEXy0fod2yRBw7cDaGgnnGrLBuJJOGmSs6dTrE5gElZB-QTZQjxkKfaYVo.MBFJ_14Y11bgBsIKlVqRLLlwyZoUREIxcWy4i2S9d0U&dib_tag=se&keywords=Phantom+History+House&qid=1725979445&s=digital-text&sprefix=phantom+history+house%2Cdigital-text%2C114&sr=1-1#books-entity-teaser"
+      },
 
       {
         bookName:"The Horror Zine's Book of Monster Stories",
