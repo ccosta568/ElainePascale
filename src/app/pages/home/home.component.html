@@ -41,7 +41,11 @@
       <div class="row">
         <div class="col-lg-4" *ngFor="let bd of bookData;index as i">
           <div class="bookbox">
-            <a href="{{bd.bookUrl}}" target="_blank"> <img src="{{bd.bookimg}}"></a>
+            <a [href]="bd.bookUrl === '#' ? '#' : bd.bookUrl" 
+            (click)="handleClick(bd, $event)" 
+            target="_blank">
+           <img src="{{bd.bookimg}}" alt="{{bd.bookName}}">
+         </a>
             <!--- <p>{{bd.bookDes}}</p>  Uncomment to Add description of books under pic -->
           </div>
         </div>

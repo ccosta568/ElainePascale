@@ -9,6 +9,12 @@ export class BookDetailsService {
   //bookdetails
     bookDetails = [
       {
+        bookName:"The Solstice",
+        bookimg : ( "../assets/img/solstice.jpg"),
+        bookDes : "Love, happiness, and hope are only available to those wearing red bands and taking Solidox pills. Solidox ends the pain of aging and returns the consumers to youthful health. Solidox tastes like the greatest comfort food imaginable, or even goodnight kisses. It also causes a hunger that can only be satisfied by human flesh.",
+        bookUrl : ("https://journalstone.com/bookstore/the-solstice/")
+      },
+      {
         bookName:"The Language of Crows",
         bookimg : ( "../assets/img/loc.jpg"),
         bookDes : "Legend has it that crows prophesize offenses of the worst kind, their harsh tones are harbingers of horror. Collectively, crows are a murder, and they call out orders about their own name. The Language of Crows and other stories contains dark fairy tales, historical horror, and psychological horror in voices of the violent and the violated. It is a collection of witches' spells, monsters' murmurs, and voices within one's head.",
@@ -28,7 +34,7 @@ export class BookDetailsService {
       },
       {
         bookName:"The Blood Lights",
-        bookimg:( "../assets/img/BloodLights.png"),
+        bookimg:( "../assets/img/BLC.jpg"),
         bookDes : "The Blood Lights are the last thing you’ll see… They victimize all… Jezzie Mitchell is in anguish; with her brother’s murder still on her mind, she’s noticed strange behavior among the girls in the residential treatment center where she works. Is there a connection between the contagion on Cape Cod and the deadly Bahamas vacation that changed her life? Jezzie reaches out to former lover Lou Collins, a scholar who has chased proof of the lights for decades. Will he be able to solve the mystery of the lights in time? Intensely competitive, reporter Bridgette Collins knows the lights are a way to secure fame in her career. And while it’ll put the final nail into the coffin of her ex-husband’s career, she vows to know the secrets of the lights. Even if it means unleashing a world-wide epidemic…",
         bookUrl : "https://www.amazon.com/Blood-Lights-Elaine-Pascale-ebook/dp/B0CR2Q5CPL/ref=sr_1_1?crid=1XE8R124Y5SE8&dib=eyJ2IjoiMSJ9.i3CgddI_Wn624AYXJxTjZuIop5h1ESMHITvQaKkvrpQ.I_ToBDSrZDuGtpamenG2m-5kyq0QtEqTS-kFNEZ2aFo&dib_tag=se&keywords=blood+lights+elaine+pascale&qid=1719987265&sprefix=blood+lights+elaine+pas%2Caps%2C702&sr=8-1"
       },
@@ -37,6 +43,12 @@ export class BookDetailsService {
         bookimg:( "../assets/img/Damsels.jpg"),
         bookDes : "A transcendental anthology of women in horror, altering all you know by revamping traditional lore while exploring the unfathomable and the obscure.",
         bookUrl : "https://www.amazon.com/Dastardly-Damsels-Suzie-Lockhart-ebook/dp/B0DHLQD12R"
+      },
+      {
+        bookName:"Con-thology",
+        bookimg:( "../assets/img/conpic.png"),
+        bookDes : "Stories of Convention Horror by multiple authors",
+        bookUrl : "#"
       },
       {
         bookName:"Phantom Menagerie",

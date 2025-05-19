@@ -17,13 +17,14 @@
                 <a routerLink="" class="home">Elaine Pascale</a>
             </div>
             <!--nav-->
+            <!-- Footer Navigation -->
             <div class="col-lg-8">
                 <span class="middle">
-                    <a routerLink="videos" class="center">Videos</a>               
-                    <a routerLink="haunts" class="center">Haunts</a>
-                    <a routerLink="podcasts" class="center">Podcasts</a>   
-                    <a routerLink="interviews" class="center">Interviews</a>                                     
-                    <a routerLink="about" class="center">About</a>
+                    <ng-container *ngFor="let link of links">
+                        <a [routerLink]="link.path" class="center" *ngIf="link.path !== currentRoute">
+                            {{ link.label }}
+                        </a>
+                    </ng-container>
                 </span>
             </div>
             <!--Social Media-->
@@ -38,10 +39,8 @@
                             <path
                                 d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
                         </svg></a>
-                    <a href="https://twitter.com/doclaney" target="_blank"><i class="bi-twitter-x"></i></a>
-                    <a
-                    href="https://www.youtube.com/channel/UCCeFCQ9nmyhxUetTsr0oK_Q"
-                    target="_blank"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.youtube.com/channel/UCCeFCQ9nmyhxUetTsr0oK_Q" target="_blank"><i
+                            class="bi bi-youtube"></i></a>
                 </span>
             </div>
 

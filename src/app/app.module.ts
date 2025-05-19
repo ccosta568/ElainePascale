@@ -14,6 +14,7 @@ import { HauntsComponent } from './pages/haunts/haunts.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { PodcastsComponent } from './pages/podcasts/podcasts.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { EventsComponent } from './pages/events/events.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     InterviewsComponent,
     HauntsComponent,
     PodcastsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

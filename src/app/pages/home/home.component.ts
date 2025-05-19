@@ -25,6 +25,14 @@ export class HomeComponent implements OnInit {
     this.questions = this.quizService.getQuestions();
   }
 
+  handleClick(book: any, event: MouseEvent) {
+    // Check if the book name is "Convention Horror"
+  if (book.bookName === "Con-thology") { 
+    event?.preventDefault();
+    alert(`Sorry, ${book.bookName} is available in person only.`);
+    }
+  }  
+
   selectOption(points: number): void {
     this.totalPoints += points;
     this.nextQuestion();
