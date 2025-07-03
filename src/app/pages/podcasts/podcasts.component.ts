@@ -17,17 +17,14 @@ export class PodcastsComponent implements OnInit {
     this.podcasts = this.podcastService.getPodcasts();
   }
 
-  next() {
-    if (this.currentPodcastIndex < this.podcasts.length - 1) {
-      this.currentPodcastIndex++;
-      // Update the audio source and play the next podcast
-    }
-  }
+next() {
+  this.currentPodcastIndex = (this.currentPodcastIndex + 1) % this.podcasts.length;
+  // Update the audio source and play the next podcast
+}
 
-  previous() {
-    if (this.currentPodcastIndex > 0) {
-      this.currentPodcastIndex--;
-      // Update the audio source and play the previous podcast
-    }
-  }
+previous() {
+  this.currentPodcastIndex =
+    (this.currentPodcastIndex - 1 + this.podcasts.length) % this.podcasts.length;
+  // Update the audio source and play the previous podcast
+}
 }

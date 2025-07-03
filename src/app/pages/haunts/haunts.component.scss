@@ -11,10 +11,6 @@ h1 {
     font-size: 60px;
 }
 
-.row {
-    padding-bottom: 2%;
-}
-
 .background {
     background-image: url('../../../assets/img/bannerimg.jpg');
     background-position: center bottom;
@@ -23,47 +19,84 @@ h1 {
     background-repeat: no-repeat;
 }
 
-.carousel-inner {
-    padding-bottom: 10px;
+.dossier-container {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
 }
 
-.carousel-caption {
-    color: #ffffff;
-    /* Text color */
-    padding: 0;
+.dossier-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 60px;
+  color: #ff003c;
+  text-shadow: 0 0 10px black;
+  border-bottom: 3px dashed crimson;
+  padding-bottom: 10px;
 }
 
+.file-card {
+  position: relative;
+  background: #222;
+  border: 1px solid #900;
+  margin-bottom: 40px;
+  padding: 30px 20px;
+  border-radius: 6px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.7);
+  transform: rotate(-1deg);
+  transition: transform 0.3s;
+}
 
-.carousel-caption h5 {
-    background-color: rgba(0, 0, 0, 0.7);
+.file-card:hover {
+  transform: rotate(0deg) scale(1.02);
+  box-shadow: 0 0 15px red;
+}
+
+.file-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #ff6666;
+  text-decoration: underline;
+}
+
+.file-card p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #ccc;
+}
+
+.file-card a {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: crimson;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px black;
+}
+
+.file-card a:hover {
+  background-color: darkred;
+}
+
+.tab {
+  position: absolute;
+  top: -15px;
+  left: -10px;
+  background: #444;
+  color: #ff4444;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transform: rotate(-5deg);
+  box-shadow: 2px 2px 5px black;
+  border: 1px solid crimson;
+}
+
+@media (max-width: 768px) {
+  .dossier-title {
     font-size: 2rem;
-    /* Adjust font size as needed */
-    margin-bottom: 0.5rem;
-    /* Add some spacing below the heading */
-    display: inline-block;
+  }
 }
-
-.carousel-caption p {
-    background-color: rgba(0, 0, 0, 0.7);
-    display: inline-block;
-    font-size: 1.2rem;
-    /* Adjust font size as needed */
-}
-
-img {
-    width: 60vw;
-    height: 80vh;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color : rgb(0, 0, 0); /* Change the color to your preferred darker color */
-}
-
-@media screen and (max-width:600px) {
-    img {
-        width: 100vw;
-        height: 80vh;
-    }
-}
-  
