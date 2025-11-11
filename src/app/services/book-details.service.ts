@@ -9,6 +9,12 @@ export class BookDetailsService {
   //bookdetails
     bookDetails = [
       {
+        bookName:"Darkness Most Fowl",
+        bookimg : ( "../assets/img/MostFowl.png"),
+        bookDes : "From a plague of grackles and a spiral of creepers to a scavenging of gulls and a watch of shrikes; beautiful, resourceful, and impressive birds can also nest in the scariest parts of your worst imaginings. Twenty premier horror authors take flight in this anthology of bird horror.",
+        bookUrl : ("https://www.amazon.com/Darkness-Most-Fowl-Elaine-Pascale/dp/B0FRS2V9FQ/ref=sr_1_1?sr=8-1")
+      },
+      {
         bookName:"The Solstice",
         bookimg : ( "../assets/img/solstice.jpg"),
         bookDes : "Love, happiness, and hope are only available to those wearing red bands and taking Solidox pills. Solidox ends the pain of aging and returns the consumers to youthful health. Solidox tastes like the greatest comfort food imaginable, or even goodnight kisses. It also causes a hunger that can only be satisfied by human flesh.",

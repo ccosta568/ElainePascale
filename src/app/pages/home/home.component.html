@@ -23,7 +23,7 @@
         <p>{{ questions[currentQuestionIndex].questionText }}</p>
         <ul>
           <li *ngFor="let option of questions[currentQuestionIndex].options">
-            <button (click)="selectOption(option.points)">{{ option.text }}</button>
+         <button (click)="selectOption(option)">{{ option.text }}</button>
           </li>
         </ul>
       </div>
