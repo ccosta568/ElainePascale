@@ -1,4 +1,4 @@
-body {
+.background {
     background-image: url('../../../assets/img/bannerimg.jpg');
     background-position: center bottom;
     background-size: cover;
@@ -91,11 +91,22 @@ h4 {
     }
 
     .event-date,
-    .event-location {
+    .event-location,
+    .event-description,
+    .event-link {
         font-weight: 600;
         color: #fff;
         margin: 0;
         line-height: 1.3;
+    }
+
+    .event-description {
+        font-weight: 500;
+    }
+
+    .event-link {
+        text-decoration: underline;
+        font-weight: 700;
     }
 }
 

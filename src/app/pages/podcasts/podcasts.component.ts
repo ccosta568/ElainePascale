@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { PodcastService } from 'src/app/services/podcast.service';
 
 @Component({
@@ -11,10 +12,20 @@ export class PodcastsComponent implements OnInit {
   podcasts: any[] = [];
   currentPodcastIndex = 0;
 
-  constructor(private podcastService: PodcastService) { }
+  constructor(
+    private podcastService: PodcastService,
+    private title: Title,
+    private meta: Meta
+  ) { }
 
   ngOnInit() {
     this.podcasts = this.podcastService.getPodcasts();
+    this.title.setTitle('Podcasts | Elaine Pascale Horror Writer');
+    this.meta.updateTag({
+      name: 'description',
+      content:
+        'Listen to podcast appearances featuring Elaine Pascale, the Godmother of Horror and an accomplished horror writer in Florida.'
+    });
   }
 
 next() {

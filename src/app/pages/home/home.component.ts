@@ -1,5 +1,6 @@
 // src/app/components/home/home.component.ts
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { Question, QuizOption } from 'src/app/models/quiz.model';
 import { BookDetailsService } from 'src/app/services/book-details.service';
 import { QuizService } from 'src/app/services/quiz.service';
@@ -22,12 +23,25 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private service: BookDetailsService,
-    private quizService: QuizService
+    private quizService: QuizService,
+    private title: Title,
+    private meta: Meta
   ) {}
 
   ngOnInit(): void {
     this.bookData = this.service.bookDetails;
     this.questions = this.quizService.getQuestions();
+    this.title.setTitle('Elaine Pascale | Horror Writer in Florida | Godmother of Horror');
+    this.meta.updateTag({
+      name: 'description',
+      content:
+        'Elaine Pascale is an accomplished horror writer in Florida, the Godmother of Horror, author of novels and short stories, featured on podcasts and videos, and a frequent guest at Florida comic cons and reading panels. Traditionally published and active in Women in Horror Month.'
+    });
+    this.meta.updateTag({
+      name: 'keywords',
+      content:
+        'Elaine Pascale, horror writer Florida, horror author, women in horror month, horror books, short stories, podcasts, videos, comic cons, reading panels'
+    });
   }
 
   handleClick(book: any, event: MouseEvent) {
