@@ -9,6 +9,12 @@ export class BookDetailsService {
   //bookdetails
     bookDetails = [
       {
+        bookName:"Unchambered",
+        bookimg : ( "../assets/img/Unchambered.jpg"),
+        bookDes : "",
+        bookUrl : ("https://a.co/d/0itpVzJl")
+      },
+      {
         bookName:"Darkness Most Fowl",
         bookimg : ( "../assets/img/MostFowl.png"),
         bookDes : "From a plague of grackles and a spiral of creepers to a scavenging of gulls and a watch of shrikes; beautiful, resourceful, and impressive birds can also nest in the scariest parts of your worst imaginings. Twenty premier horror authors take flight in this anthology of bird horror.",
