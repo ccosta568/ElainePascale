@@ -33,7 +33,7 @@
             <a [href]="bd.bookUrl === '#' ? '#' : bd.bookUrl"
             (click)="handleClick(bd, $event)"
             target="_blank" rel="noopener noreferrer">
-           <img src="{{bd.bookimg}}" alt="{{bd.bookName}}">
+           <img src="{{bd.bookimg}}" alt="Book cover for {{bd.bookName}}">
          </a>
             <!--- <p>{{bd.bookDes}}</p>  Uncomment to Add description of books under pic -->
           </div>

@@ -44,6 +44,14 @@ CloudFront
 
 Project also implemented HTTPS Security
   -requesting a certificate
+
+## CloudFront client-side routes
+
+The Angular routes must be rewritten to `/index.html` before CloudFront asks
+S3 for an object. Publish `infrastructure/cloudfront-url-rewrite.js` as a
+CloudFront Function and associate it with the distribution's viewer-request
+event. The function rewrites only known application routes, so unknown URLs
+continue to return a real 404 response.
   
   # Resources Used
   

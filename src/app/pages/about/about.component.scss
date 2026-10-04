@@ -32,10 +32,17 @@ img {
   height: 500px;
   object-fit: contain;
   float: right;
+  border-radius: 12px;
+  transition: transform 250ms ease;
+}
+
+img:hover,
+a:focus-visible img {
+  transform: scale(1.05);
 }
 
 .background {
-  background-image: url('../../../assets/img/about-background.jpg');
+  background-image: url('../../../assets/img/parchment-paper-background.jpg');
 }
 
 .about {
@@ -44,6 +51,17 @@ img {
   float: left;
   padding: 0%;
   margin-left: 10%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  img {
+    transition: none;
+  }
+
+  img:hover,
+  a:focus-visible img {
+    transform: none;
+  }
 }
 
 @media screen and (max-width:1100px) {

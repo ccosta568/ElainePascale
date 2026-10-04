@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 import { YoutubeComponent } from './youtube.component';
 
@@ -8,6 +9,7 @@ describe('YoutubeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [YouTubePlayerModule],
       declarations: [ YoutubeComponent ]
     })
     .compileComponents();

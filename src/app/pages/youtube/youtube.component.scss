@@ -1,5 +1,5 @@
 .background {
-  background-image: url('../../../assets/img/bannerimg.jpg');
+  background-image: url('../../../assets/img/elaine-pascale-horror-writer-banner.jpg');
   background-position: center bottom;
   background-size: cover;
   min-height: 100vh;
@@ -10,6 +10,11 @@
 img{
   height:250px;
   width:500px;
+}
+youtube-player{
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
 }
 h1{
   font-family: Nosifer, Verdana, Geneva, Tahoma, sans-serif;

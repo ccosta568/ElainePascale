@@ -8,10 +8,9 @@ import { FooterComponent } from './sharepage/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { YoutubeComponent } from './pages/youtube/youtube.component';
-import { YouTubePlayerModule } from "@angular/youtube-player";
+import { YouTubePlayerModule } from '@angular/youtube-player';
 import { InterviewsComponent } from './pages/interviews/interviews.component';
 import { HauntsComponent } from './pages/haunts/haunts.component';
-import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { PodcastsComponent } from './pages/podcasts/podcasts.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { EventsComponent } from './pages/events/events.component';
@@ -34,7 +33,6 @@ import { EventsComponent } from './pages/events/events.component';
     BrowserModule,
     AppRoutingModule,
     YouTubePlayerModule,
-    PdfViewerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
